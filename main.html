@@ -6,10 +6,39 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+<body> <main> <div>
+<header><h1>dog adoption application</h1></header>
+<form action="./main.html" method="post" id="form">
+
+	<label for="name" id="name" >Name</label> <br>
+	<input type="text" placeholder="Name" id="name" required> <br>
+  
+	<label for="Phone" id="Phone" > Phone number</label> <br>
+	<input type="text" placeholder="Phone Number" id="Phone" required> <br>
+	
+	<label for="address" id="address">address</label> <br>
+	<input type="text" placeholder="Address" id="address" required> <br>
+
+	<input type="checkbox" id="checkbox" value=" Have you ever lived with a Dog before ?" required>
+	<label for="question">Have you ever lived with a Dog before ?  </label> <br>
+	
+	<label for="breed" > select breeds</label>
+	
+	<select name="breed" id="multiselect" required>
+     <option value="german shefered">german shefered</option>
+	 <option value="lebra">lebra</option>
+	 <option value="pug">pug</option></select> <br>
+	
+	 <input type="submit" id="submit" value="submit">
+
+
+</form>
+</div>
+</main>
+<script type="text/javascript" src="./script.js">
 </script>
+
+
 
 </body>
 
